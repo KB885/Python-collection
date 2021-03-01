@@ -8,5 +8,5 @@ def fibonacci(i):
     else:
         return fibonacci(i-2) + fibonacci(i-1)
 
-for x in range(5):
+for x in range(25):
     print(fibonacci(x))
